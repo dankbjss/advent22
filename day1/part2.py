@@ -1,4 +1,4 @@
-from part1 import read_calories, get_totals
+from day1.part1 import read_calories, get_totals
 
 
 if __name__ == "__main__":
