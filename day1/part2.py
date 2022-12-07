@@ -1,5 +1,4 @@
-from day1.part1 import read_calories, get_totals
-
+from part1 import read_calories, get_totals
 
 if __name__ == "__main__":
     with open("day1/input.txt", "r") as file:
