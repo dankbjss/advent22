@@ -9,7 +9,6 @@ def get_assignment_integers(line):
     return assignment_integers
 
 def check_intersection_lengths(assignment_integers):
-    assignment_integers = get_assignment_integers(line)
     section_one = [number for number in range(assignment_integers[0], assignment_integers[1] + 1)]
     section_two = [number for number in range(assignment_integers[2], assignment_integers[3] + 1)]
     intersection = list(set(section_one).intersection(section_two))
