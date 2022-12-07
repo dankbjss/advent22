@@ -13,7 +13,6 @@ def get_common_item(elf_group):
         )
     return common_item[0]
 
-
 if __name__ == "__main__":
     common_item_values = []
     with open("day3/input.txt", "r") as file:
