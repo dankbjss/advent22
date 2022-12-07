@@ -14,7 +14,7 @@ def get_unique_item(compartments):
     unique_item = list(unique_item_set)[0]
     return unique_item
 
-def get_letter_value(letter):
+def get_letter_value(unique_item):
     if unique_item in ascii_lowercase:
         for index, letter in enumerate(ascii_lowercase):
             if unique_item == letter:
