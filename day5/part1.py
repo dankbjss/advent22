@@ -1,4 +1,4 @@
-from time import sleep
+
 def get_stack_size(file_name):
     with open(file_name, "r") as file:
         count = -1
@@ -45,12 +45,6 @@ def get_instructions(file_name, stack_size):
             int(instruction[o_index :])
             ])
     return instruction_numbers
-
-def stack_printer(stacks):
-    for stack in stacks:
-        print(stack)
-    print("\n")
-    sleep(2)
 
 def move_crates(instructions, stacks):
     for instruction in instructions:
